@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { IoSettingsOutline } from "react-icons/io5"
-import { BsBagCheck } from "react-icons/bs"
 import { AiOutlineHeart } from "react-icons/ai"
 import { GrHelp } from "react-icons/gr"
 import { BiLogOut } from "react-icons/bi"
@@ -19,18 +18,18 @@ export const User = () => {
         {user ? (
           <>
             <button className='img' onClick={() => setProfileOpen(!profileOpen)}>
-              <img src='https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
+              <img src='https://images.pexels.com/photos/2909077/pexels-photo-2909077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='' />
             </button>
             {profileOpen && (
               <div className='openProfile boxItems' onClick={close}>
                 <Link to='/account'>
                   <div className='image'>
                     <div className='img'>
-                      <img src='https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
+                      <img src='https://images.pexels.com/photos/2909077/pexels-photo-2909077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='' />
                     </div>
                     <div className='text'>
-                      <h4>Eden Smith</h4>
-                      <label>Los Angeles, CA</label>
+                      <h4>Hiti Dudeja</h4>
+                      <label>Chitkara University</label>
                     </div>
                   </div>
                 </Link>
@@ -47,12 +46,8 @@ export const User = () => {
                   </button>
                 </Link>
                 <button className='box'>
-                  <BsBagCheck className='icon' />
-                  <h4>My Order</h4>
-                </button>
-                <button className='box'>
                   <AiOutlineHeart className='icon' />
-                  <h4>Wishlist</h4>
+                  <h4>Likes</h4>
                 </button>
                 <button className='box'>
                   <GrHelp className='icon' />

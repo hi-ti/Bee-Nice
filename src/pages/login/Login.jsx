@@ -1,6 +1,5 @@
 import React from "react"
 import "./login.css"
-import back from "../../assets/images/my-account.jpg"
 
 export const Login = () => {
   return (
@@ -8,11 +7,7 @@ export const Login = () => {
       <section className='login'>
         <div className='container'>
           <div className='backImg'>
-            <img src={back} alt='' />
-            <div className='text'>
-              <h3>Login</h3>
-              <h1>My account</h1>
-            </div>
+            <img src="https://images.pexels.com/photos/2882566/pexels-photo-2882566.jpeg?auto=compress&cs=tinysrgb&w=600" alt='' />
           </div>
 
           <form>

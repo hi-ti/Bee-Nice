@@ -10,6 +10,7 @@ export const Card = () => {
       <section className='blog'>
         <div className='container grid3'>
           {blog.map((item) => (
+            <Link to={`/details/${item.id}`} className='link'>
             <div className='box boxItems' key={item.id}>
               <div className='img'>
                 <img src={item.cover} alt='' />
@@ -30,6 +31,7 @@ export const Card = () => {
                 </div>
               </div>
             </div>
+            </Link>
           ))}
         </div>
       </section>

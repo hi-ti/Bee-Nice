@@ -1,6 +1,5 @@
 import React from "react"
 import "./login.css"
-import back from "../../assets/images/my-account.jpg"
 
 export const Regsiter = () => {
   return (
@@ -8,7 +7,7 @@ export const Regsiter = () => {
       <section className='login'>
         <div className='container'>
           <div className='backImg'>
-            <img src={back} alt='' />
+            <img src="https://images.pexels.com/photos/6476588/pexels-photo-6476588.jpeg?auto=compress&cs=tinysrgb&w=600" alt='' />
             <div className='text'>
               <h3>Register</h3>
               <h1>My account</h1>
